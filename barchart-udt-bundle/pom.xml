@@ -117,7 +117,7 @@
 										</artifactItem>
 
 										<!-- Collect native libraries. -->
-										<artifactItem>
+										<!--<artifactItem>
 											<groupId>${dependencyGroupId}</groupId>
 											<artifactId>${dependencyArtifactId}</artifactId>
 											<version>${dependencyVersion}</version>
@@ -130,7 +130,7 @@
 											<version>${dependencyVersion}</version>
 											<classifier>${lin32}</classifier>
 											<type>nar</type>
-										</artifactItem>
+										</artifactItem>-->
 										<artifactItem>
 											<groupId>${dependencyGroupId}</groupId>
 											<artifactId>${dependencyArtifactId}</artifactId>
@@ -138,7 +138,7 @@
 											<classifier>${lin64}</classifier>
 											<type>nar</type>
 										</artifactItem>
-										<artifactItem>
+										<!--<artifactItem>
 											<groupId>${dependencyGroupId}</groupId>
 											<artifactId>${dependencyArtifactId}</artifactId>
 											<version>${dependencyVersion}</version>
@@ -165,7 +165,7 @@
 											<version>${dependencyVersion}</version>
 											<classifier>${win64}</classifier>
 											<type>nar</type>
-										</artifactItem>
+										</artifactItem>-->
 
 									</artifactItems>
 								</configuration>
